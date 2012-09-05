@@ -84,7 +84,7 @@ kdeutils="ark \
 DONE_MODLIST=""
 kdemultimedia="libkcddb \
 	libkcompactdisc \
-	kdeaudio-kio \
+	audiocd-kio \
 	dragon \
 	ffmpegthumbs \
 	juk \
