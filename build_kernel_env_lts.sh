@@ -8,7 +8,9 @@ nvidia-kernel-legacy173-lts \
 nvidia-kernel-legacy96-lts \
 vhba-module-lts \
 virtualbox-kernel-lts \
-broadcom-wl-lts"
+broadcom-wl-lts \
+bbswitch-lts \
+acpi_call-lts"
 
 
 for i in $MODLIST ; do

@@ -8,7 +8,9 @@ nvidia-kernel-legacy173-uksm \
 nvidia-kernel-legacy96-uksm \
 vhba-module-uksm \
 virtualbox-kernel-uksm \
-broadcom-wl-uksm"
+broadcom-wl-uksm \
+bbswitch-uksm \
+acpi_call-uksm"
 
 
 for i in $MODLIST ; do
