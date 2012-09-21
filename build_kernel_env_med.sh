@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KVER=${KVER:-3.5.3}
+KVER=${KVER:-3.5.4}
 
 #mkpkg -si -bt api:kernel -bv $KVER
 MODLIST="nvidia-kernel-med \
@@ -10,7 +10,8 @@ vhba-module-med \
 virtualbox-kernel-med \
 broadcom-wl-med \
 bbswitch-med \
-acpi_call-med"
+acpi_call-med \
+lirc-kernel-med"
 
 
 for i in $MODLIST ; do

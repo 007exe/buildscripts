@@ -10,7 +10,8 @@ vhba-module-lts \
 virtualbox-kernel-lts \
 broadcom-wl-lts \
 bbswitch-lts \
-acpi_call-lts"
+acpi_call-lts \
+lirc-kernel-lts"
 
 
 for i in $MODLIST ; do

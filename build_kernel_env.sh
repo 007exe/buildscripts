@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KVER=${KVER:-3.4.7}
+KVER=${KVER:-3.5.4}
 
 #mkpkg -si -bt api:kernel -bv $KVER
 MODLIST="nvidia-kernel \
@@ -10,10 +10,11 @@ vhba-module \
 virtualbox-kernel \
 broadcom-wl \
 bbswitch \
-acpi_call"
+acpi_call \
+lirc-kernel"
 
 
 for i in $MODLIST ; do
-	KERNEL=$KVER mkpkg -bt api:$i
+	KERNEL=$KVER mkpkg -bt api:$i -ib
 done
 

@@ -10,7 +10,8 @@ vhba-module-uksm \
 virtualbox-kernel-uksm \
 broadcom-wl-uksm \
 bbswitch-uksm \
-acpi_call-uksm"
+acpi_call-uksm \
+lirc-kernel-uksm"
 
 
 for i in $MODLIST ; do
